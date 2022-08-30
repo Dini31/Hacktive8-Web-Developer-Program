@@ -1,0 +1,9 @@
+- perkenalan
+- Apa itu web menurut masing-masing?
+- pluggin
+- perbedaan setiap browser
+- search egine -> 
+- https://www.w3schools.com/tags/att_ol_type.asp
+- beberapa elemen bisa pake claa yang sama, kalau id itu untuk 1 unit saja
+- h2 dan div itu blok, itu makan 1 baris -> h2
+- span mau sebelahan, 1 baris gapapa
