@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#">Portofolio</a>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="dlm-con">
+          <div class="sidebar">
+            <img src="image/fotoku.png" alt="profile" />
+            <div class="nama">
+              <h2 id="name"></h2>
+              <p id="role"></p>
+
+              <div class="button">
+                <button class="btn-kontak" href="#">Kontak</button>
+                <button class="btn-resume" href="#">Resume</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-2">
+            <div class="sdb-kiri">
+              <p>Availbility</p>
+              <p>Usia</p>
+              <p>Lokasi</p>
+              <p>Pengalaman</p>
+              <p>Email</p>
+            </div>
+
+            <div class="sdb-kanan">
+              <p id="availbility"></p>
+              <p id="usia"></p>
+              <p id="lokasi"></p>
+              <p id="pengalaman"</p>
+              <p id="email"</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="container-form" onsubmit="submitForm()">
+        <div>
+          <label for="name">Nama</label>
+          <br>
+          <input class="input-box" type="text" id="input-name" placeholder="" />
+          <br />
+          <label for="role">Role</label>
+          <br>
+          <input class="input-box" type="text" id="input-role" placeholder="" />
+          <br />
+          <label for="availbility">Availbility</label>
+          <br>
+          <input class="input-box" type="text" id="input-availbility" placeholder="" />
+          <br />
+          <label for="usia">Usia</label>
+          <br>
+          <input class="input-box" type="text" id="input-usia" placeholder="" />
+          <br />
+          <label for="lokasi">Lokasi</label>
+          <br>
+          <input class="input-box" type="text" id="input-lokasi" placeholder="" />
+          <br />
+          <label for="pengalaman">pengalaman</label>
+          <br>
+          <input class="input-box" type="text" id="input-pengalaman" placeholder="" />
+          <br />
+          <label for="email">Email</label>
+          <br>
+          <input class="input-box" type="text" id="input-email" placeholder="" />
+          <br />
+          
+        </div>
+        
+          <button class="submit" type="submit" value="submit">Submit</button>
+      </form>
+        <script>
+         
+        </script>
+      </div>
+    </header>
+  </body>
+</html>
